@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Contact</title>
+		<link rel="icon" type="image/x-icon" href="images/icon.png">
+		<!-- Bootstrap Stylesheet -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	</head>
+  
+	<body>
+		<!-- Tooltip and Nav Bar -->
+		<nav data-bs-toggle="tooltip" data-bs-title="This is a nav bar !!!" class="navbar navbar-expand-lg bg-body-tertiary px-5">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src = "images/logo.png">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+			
+			<!-- Dropdown if small screen -->
+			<div class="collapse navbar-collapse fw-semibold fs-5" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item p-2">
+						<a class="nav-link" href="project2.html">Home</a>
+					</li>
+					<li class="nav-item p-2">
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item p-2">
+						<a class="nav-link" href="blog.html">Blog</a>
+					</li>
+					<li class="nav-item p-2">
+						<a class="nav-link" href="resume.html">Resume</a>
+					</li>
+					<li class="nav-item p-2">
+						<a class="nav-link active" aria-current="page" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Hero Image -->
+		<content class = "position-relative card">
+			<img class = "w-100 d-block" src = "images/contactBanner.png" alt = "banner image"></img>
+			<div class = "position-absolute top-0 w-100 h-100 bg-dark bg-opacity-25"></div>
+			<div class = "text-white position-absolute top-50 w-100 text-center">
+				<h1 class = "display-1">Contact Us</h1>
+			</div>
+		</content>
+		
+		<div class = "content w-50 m-auto py-5">
+			<div>
+				<h1>HOW TO BOOK YOUR VIDEO or PHOTO SESSION WITH US:</h1>
+				<!-- Using details and summary tags, the text can be hidden and expanded -->
+				<details class = "p-2">
+					<summary>
+						<h2 class = "d-inline">See my Work</h2>
+					</summary>
+					<p class = "p-3">Explore my photography and videography experience to discover the various photo and video pieces that I specialize in. If you are seeking authentic content, capturing the exact emotion and energy you want, my approach may resonate with you. Be sure to look for @txffzny.art on Instagram to see more!</p>
+				</details>
+				<details class = "p-2">
+					<summary>
+						<h2 class = "d-inline">Contact Me for a Quote</h2>
+					</summary>
+					<p class = "p-3">Ready to capture your best moments on camera? Still looking for options? Navigate to the form below, filling out your info, details regarding what service you require, and further details about the plans you have in mind. Not based in Toronto? No problem! Once I receive your details, I will get back to you with possible quotes and am flexible with your needs. I can't wait to hear from you!</p>
+				</details>
+				<details class = "p-2">
+					<summary>
+						<h2 class = "d-inline">Time for your Session</h2>
+					</summary>
+					<p class = "p-3">Once you have received your quote and booked a time with us, I will send everything you need to confirm your booking- including, contracts, invoice, and a short questionnaire. This will help me get to know you better and what you'd like me to capture. The details you provide will help me make you comfortable and ensure the photos or videos reflect you.</p>
+				</details>
+			</div>
+
+			<div class = "inquire py-5">
+				<h2>INQUIRE WITH US</h2>
+				<!-- Input boxes and submit button -->
+				<h4>Your Info: </h4>
+				<input class = "d-block w-100 fs-5 m-2 p-2 pt-3 border-black border-top-0 border-end-0 border-start-0 border-bottom" id = "name">
+				<label for = "name" class = "formLabel">YOUR NAME（REQUIRED）</label>
+				<input class = "d-block w-100 fs-5 m-2 p-2 pt-3 border-black border-top-0 border-end-0 border-start-0 border-bottom" id = "email">
+				<label for = "email" class = "formLabel">EMAIL（REQUIRED）</label>
+				<input class = "d-block w-100 fs-5 m-2 p-2 pt-3 border-black border-top-0 border-end-0 border-start-0 border-bottom" id = "phoneNumber">
+				<label for = "PHONE NUMBER" class = "formLabel">PHONE NUMBER</label>
+
+				<h4 class = "mt-3">Details: </h4>
+				<input class = "d-block w-100 fs-5 m-2 p-2 pt-3 border-black border-top-0 border-end-0 border-start-0 border-bottom" id = "serviceType">
+				<label for = "serviceType" class = "formLabel">SERVICE TYPES（REQUIRED）</label>
+
+				<h4 class = "mt-3">Your Message: </h4>
+				<textarea class = "d-block w-100 fs-5 m-2 p-2 pt-3 border-black border-top-0 border-end-0 border-start-0 border-bottom" id = "plans"></textarea>
+				<label for = "plans" class = "formLabel">PLEASE TELL US MORE ABOUT YOUR PLANS</label>
+
+				<button class = "btn btn-secondary btn-lg d-block p-2 w-100 m-2 mt-3 fs-5">SUBMIT</button>
+			</div>
+		</div>
+		
+		<!-- Footer with Breakpoints using Grid Layout-->
+		<footer class = "card container-fluid bg-light rounded-0 p-lg-5 p-sm-0 pb-0">
+            <div class = "card-body row text-center align-items-center">
+				<!-- Breakpoints, large screen or bigger take 3 columns of 12, small screen take whole width-->
+                <div class = "col-sm-12 col-lg-3 p-sm-3">
+                    <div>
+                        <h1 class = "card-title"><a class="nav-link" href="project2.html">Tiffany Tea Studios</a></h1>
+                        <p class = "card-text">Capturing life, cinematically.</p>
+                    </div>
+                </div>
+                <div class = "col-sm-12 col-lg-3 p-sm-2">
+                    <h4 class = "p-lg-2"><a class="nav-link" href="gallery.html">Gallery</a></h4>
+                    <p class = "p-lg-1"><a class="nav-link" href="gallery.html#carouselExampleIndicators">Featured Works</a></p>
+                    <p class = "p-lg-1"><a class="nav-link" href="gallery.html#concertList">Concert and Live Event Photography</a></p>
+                </div>
+                <div class = "col-sm-12 col-lg-3 p-sm-2">
+                    <h4 class = "p-lg-2"><a class="nav-link" href="blog.html">Blog</a></h4>
+                    <p class = "p-lg-1"><a class="nav-link" href="blog.html">G Flip & Mercer Henderson</a></p>
+                    <p class = "p-lg-1"><a class="nav-link" href="blog.html">Stacey Ryan, Haven Madison & The Collarbones</a></p>
+                    <p class = "p-lg-1"><a class="nav-link" href="blog.html">Me Like Bees, Parrotfish & Small-Town Strip Club</a></p>
+                </div>
+                <div class = "col-sm-12 col-lg-3 p-sm-2">
+                    <h4 class = "p-lg-2">More</h4>
+                    <p class = "p-lg-1"><a class="nav-link" href="resume.html">Resume</a></p>
+                    <p class = "p-lg-1"><a class="nav-link" href="contact.html">Contact</a></p>
+                </div>
+            </div>
+            <div class = "card-footer bg-light row text-center"><p>© Tiffany Tea 2025. All rights Reserved.</p></div>
+        </footer>
+		
+		<!-- Bootstrap script -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+		<script> 
+			const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+			const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl)) 
+		</script>
+	</body>
+</html>

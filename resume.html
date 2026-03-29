@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Resume</title>
+	<link rel="icon" type="image/x-icon" href="images/icon.png">
+	<!-- Bootstrap Stylesheet -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+	<!-- Tooltip and Nav Bar -->
+	<nav data-bs-toggle="tooltip" data-bs-title="This is a nav bar !!!" class="navbar navbar-expand-lg bg-body-tertiary px-5">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<img src = "images/logo.png">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</div>
+		
+		<!-- Dropdown if small screen -->
+		<div class="collapse navbar-collapse fw-semibold fs-5" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item p-2">
+					<a class="nav-link" href="project2.html">Home</a>
+				</li>
+				<li class="nav-item p-2">
+					<a class="nav-link" href="gallery.html">Gallery</a>
+				</li>
+				<li class="nav-item p-2">
+					<a class="nav-link" href="blog.html">Blog</a>
+				</li>
+				<li class="nav-item p-2">
+					<a class="nav-link active" aria-current="page" href="#">Resume</a>
+				</li>
+				<li class="nav-item p-2">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Grid layout to create 2 columns -->
+	<div class = "p-5 container w-75 m-auto">
+		<div class = "row">
+			<div class = "col m-auto p-5">
+				<img class = "w-100" src = "images/tuff.jpg">
+			</div>
+			
+			<div class = "col p-5">
+				<h1>About Me</h5>
+				<h5>Freelance Concert & Live Event Photographer</h4>
+				<h5>Toronto, ON</h5>
+				<h5>July 2025 - Present</h5>
+				<ul>
+					<li>
+					Photograph live performances for artists and venues, delivering high-quality images in fast-paced, low and 
+unique lighting environments
+					</li>
+					<li>
+					Capture artist portraits, performances, and crowd energy for promotional and social media use
+					</li>
+					<li>
+					Coordinate with managers and venue staff to secure media access and ensure smooth shooting conditions
+					</li>
+					<li>
+					Edit and deliver final galleries within 24-48 hours using Adobe Lightroom, Photoshop, and Premiere Pro
+					</li>
+					<li>
+Consistently produce sharp, well-timed images during performances with intense motion and unique 
+lighting
+					</li>
+				</ul>
+				<h5>Selected Shows:</h5>
+				<ul>
+					<li>G Flip & Mercer Henderson – HISTORY, Toronto | October 2025 </li>
+					<li>Stacey Ryan, Haven Madison, & The Collarbones – Drake Underground, Toronto | October 2025</li>
+					<li>Me Like Bees, Parrotfish, & Small-Town Strip Club – Horseshoe Tavern, Toronto | August 2025</li>
+					<li>Two Another – Velvet Underground, Toronto | August 2025</li>
+					<li>Sophia Tice – Drake Underground, Toronto | July 2025</li>
+				</ul>				
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer with Breakpoints using Grid Layout-->
+	<footer class = "card container-fluid bg-light rounded-0 p-lg-5 p-sm-0 pb-0">
+		<div class = "card-body row text-center align-items-center">
+			<!-- Breakpoints, large screen or bigger take 3 columns of 12, small screen take whole width-->
+			<div class = "col-sm-12 col-lg-3 p-sm-3">
+				<div>
+					<h1 class = "card-title"><a class="nav-link" href="project2.html">Tiffany Tea Studios</a></h1>
+					<p class = "card-text">Capturing life, cinematically.</p>
+				</div>
+			</div>
+			<div class = "col-sm-12 col-lg-3 p-sm-2">
+				<h4 class = "p-lg-2"><a class="nav-link" href="gallery.html">Gallery</a></h4>
+				<p class = "p-lg-1"><a class="nav-link" href="gallery.html#carouselExampleIndicators">Featured Works</a></p>
+				<p class = "p-lg-1"><a class="nav-link" href="gallery.html#concertList">Concert and Live Event Photography</a></p>
+			</div>
+			<div class = "col-sm-12 col-lg-3 p-sm-2">
+				<h4 class = "p-lg-2"><a class="nav-link" href="blog.html">Blog</a></h4>
+				<p class = "p-lg-1"><a class="nav-link" href="blog.html">G Flip & Mercer Henderson</a></p>
+				<p class = "p-lg-1"><a class="nav-link" href="blog.html">Stacey Ryan, Haven Madison & The Collarbones</a></p>
+				<p class = "p-lg-1"><a class="nav-link" href="blog.html">Me Like Bees, Parrotfish & Small-Town Strip Club</a></p>
+			</div>
+			<div class = "col-sm-12 col-lg-3 p-sm-2">
+				<h4 class = "p-lg-2">More</h4>
+				<p class = "p-lg-1"><a class="nav-link" href="resume.html">Resume</a></p>
+				<p class = "p-lg-1"><a class="nav-link" href="contact.html">Contact</a></p>
+			</div>
+		</div>
+		<div class = "card-footer bg-light row text-center"><p>© Tiffany Tea 2025. All rights Reserved.</p></div>
+	</footer>
+
+	<!-- Bootstrap script -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+		<script> 
+			const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+			const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl)) 
+		</script>
+</body>
+</html>

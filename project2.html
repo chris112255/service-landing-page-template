@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Tiffany Tea</title>
+		<link rel="icon" type="image/x-icon" href="images/icon.png">
+		<!-- Bootstrap Stylesheet -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	</head>
+  
+	<body>
+		<!-- Tooltip and Nav Bar -->
+		<nav class="navbar navbar-expand-lg bg-body-tertiary px-5">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src = "images/logo.png">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+			
+			<!-- Dropdown if small screen -->
+			<div class="collapse navbar-collapse fw-semibold fs-5" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item p-2">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item p-2">
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item p-2">
+						<a class="nav-link" href="blog.html">Blog</a>
+					</li>
+					<li class="nav-item p-2">
+						<a class="nav-link" href="resume.html">Resume</a>
+					</li>
+					<li class="nav-item p-2">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Hero Image -->
+		<content class = "position-relative card">
+			<video class = "w-100 d-block" playsinline webkit-playsinline loop muted autoplay data-poster="images/homeVideoStill.png" poster = "images/homeVideoStill.png" src = "images/homeVideo.mp4" alt = "Tiffany Tea Studios Video Preview"></video>
+			<div class = "position-absolute top-0 w-100 h-100 bg-dark bg-opacity-25"></div>
+			<div class = "text-white position-absolute top-50 w-100 text-center">
+				<h1 class = "display-1" >TIFFANY TEA</h1>
+				<h4>Capture life, cinematically.</h4>
+			</div>
+		</content>
+
+		<!-- Grid layout to create two columns -->
+		<div class = "card container border-0 w-75">
+			<div class = "row">
+				<div class = "col p-5 d-flex align-items-center">
+					<div>
+						<h2 class = "card-title">ABOUT TIFFANY TEA</h2>
+						<p class = "card-text">Photographer and videographer producing multimedia content dedicated to capturing live events and concerts.</p>
+					</div>
+				</div>
+				
+				<div class = "col p-5 card-content">
+					<p class = "card-text lh-lg">For every artist and venue, live events and concerts to portraits and headshots, Tiffany's photography, videography, and editing brings the energy and performances to you, to relive it all through film. Serving clients, artists, businesses, and live events in the GTA.</p>
+				</div>
+			</div>
+		</div>
+		
+		<hr class = "w-75 m-auto">
+
+		<!-- Grid layout to create two columns -->		
+		<div class = "card container border-0 w-75 my-5">
+			<div class = "row">
+				<div class = "col p-5 d-flex align-items-center">
+					<div class = "text-end">
+						<h2 class = "card-title">BROWSE OUR PHOTOS AND VIDEOS</h2>
+						<p class = "card-text">FOR ARTISTS</p>
+					</div>
+				</div>
+				
+				<!-- Grid layout to create two columns within the second column -->
+				<div class = "col p-0 card-content">
+					<div class = "row">
+						<div class = "col p-0 m-auto">
+								<img class = "d-inline w-100" src = "images/melikebees.png">
+								<img class = "d-inline my-1 w-100" src = "images/headshot.png">
+						</div>
+						<div class = "col px-10">
+							<img class = "d-inline w-100" src = "images/twoanother.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Footer with Breakpoints using Grid Layout-->
+		<footer class = "card container-fluid bg-light rounded-0 p-lg-5 p-sm-0 pb-0">
+            <div class = "card-body row text-center align-items-center">
+				<!-- Breakpoints, large screen or bigger take 3 columns of 12, small screen take whole width-->
+                <div class = "col-sm-12 col-lg-3 p-sm-3">
+                    <div>
+                        <h1 class = "card-title"><a class="nav-link" href="project2.html">Tiffany Tea Studios</a></h1>
+                        <p class = "card-text">Capturing life, cinematically.</p>
+                    </div>
+                </div>
+                <div class = "col-sm-12 col-lg-3 p-sm-2">
+                    <h4 class = "p-lg-2"><a class="nav-link" href="gallery.html">Gallery</a></h4>
+                    <p class = "p-lg-1"><a class="nav-link" href="gallery.html#carouselExampleIndicators">Featured Works</a></p>
+                    <p class = "p-lg-1"><a class="nav-link" href="gallery.html#concertList">Concert and Live Event Photography</a></p>
+                </div>
+                <div class = "col-sm-12 col-lg-3 p-sm-2">
+                    <h4 class = "p-lg-2"><a class="nav-link" href="blog.html">Blog</a></h4>
+                    <p class = "p-lg-1"><a class="nav-link" href="blog.html">G Flip & Mercer Henderson</a></p>
+                    <p class = "p-lg-1"><a class="nav-link" href="blog.html">Stacey Ryan, Haven Madison & The Collarbones</a></p>
+                    <p class = "p-lg-1"><a class="nav-link" href="blog.html">Me Like Bees, Parrotfish & Small-Town Strip Club</a></p>
+                </div>
+                <div class = "col-sm-12 col-lg-3 p-sm-2">
+                    <h4 class = "p-lg-2">More</h4>
+                    <p class = "p-lg-1"><a class="nav-link" href="resume.html">Resume</a></p>
+                    <p class = "p-lg-1"><a class="nav-link" href="contact.html">Contact</a></p>
+                </div>
+            </div>
+            <div class = "card-footer bg-light row text-center"><p>© Tiffany Tea 2025. All rights Reserved.</p></div>
+        </footer>
+		
+		<!-- Bootstrap script -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+		<script> 
+			const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+			const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl)) 
+		</script>
+	</body>
+</html>

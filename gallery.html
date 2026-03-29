@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gallery</title>
+	<link rel="icon" type="image/x-icon" href="images/icon.png">
+	<!-- Bootstrap stylesheet -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+	<!-- Tooltip and Nav Bar -->
+	<nav data-bs-toggle="tooltip" data-bs-title="This is a nav bar !!!" class="navbar navbar-expand-lg bg-body-tertiary px-5">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<img src = "images/logo.png">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</div>
+		
+		<!-- Dropdown if small screen -->
+		<div class="collapse navbar-collapse fw-semibold fs-5" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item p-2">
+					<a class="nav-link" href="project2.html">Home</a>
+				</li>
+				<li class="nav-item p-2">
+					<a class="nav-link active" aria-current="page" href="#">Gallery</a>
+				</li>
+				<li class="nav-item p-2">
+					<a class="nav-link" href="blog.html">Blog</a>
+				</li>
+				<li class="nav-item p-2">
+					<a class="nav-link" href="resume.html">Resume</a>
+				</li>
+				<li class="nav-item p-2">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Hero Image -->
+	<content class = "position-relative card">
+		<img class = "w-100 d-block" src = "images/photoBanner.png" alt = "banner image"></img>
+		<div class = "position-absolute top-0 w-100 h-100 bg-dark bg-opacity-25"></div>
+		<div class = "text-white position-absolute top-50 w-100 text-center">
+			<h1 class = "display-1">Gallery</h1>
+		</div>
+	</content>
+
+	<!-- Carousel -->
+	<div id="carouselExampleIndicators" class="carousel slide w-75 m-auto my-5" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"></button>
+		</div>
+		<!-- Different slides of the carousel -->
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="images/sophiaTice.png" class="d-block w-100" alt="First slide">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Sophia Tice ┃ Drake Underground, Toronto</h5>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="images/two.png" class="d-block w-100" alt="Second slide">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Me Like Bees ┃ Horseshoe Taven, Toronto</h5>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="images/collarbones.png" class="d-block w-100" alt="Third slide">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>The Collarbones ┃ Drake Underground, Toronto</h5>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="images/gflip.png" class="d-block w-100" alt="Third slide">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>GFlip ┃ HISTORY, Toronto</h5>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="images/mercerHenderson.png" class="d-block w-100" alt="Third slide">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Mercer Henderson ┃ HISTORY, Toronto</h5>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="images/staceyRyan.png" class="d-block w-100" alt="Third slide">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Stacey Ryan ┃ Drake Underground, Toronto</h5>
+				</div>
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		</button>
+	</div>
+
+	<!-- Grid layout to display images -->
+	<div id = "concertList" class = "card container border-0 w-75 my-5">
+		<!-- Make a row first to be able to make columns -->
+		<div class = "row">
+			<!-- Left column -->
+			<div class = "col py-5 m-1 d-flex align-items-center">
+				<img class = "d-inline w-100" src = "images/twoanother.jpg">
+			</div>
+			
+			<!-- Right column -->
+			<div class = "col m-1 p-0 card-content d-flex flex-column justify-content-evenly">
+				<div class = "row">
+					<div class = "col px-1 card border-0">
+						<!-- Card -->
+						<img class = "card-img-top d-inline w-100" src = "images/one.png">
+						<p class = "card-title p-2">Sophia Tice ┃ Drake Underground, Toronto</p>
+					</div>
+					<div class = "col px-1 card border-0">
+						<img class = "card-img-top d-inline w-100" src = "images/melikebeesalt.png">
+						<p class = "card-title p-2">Me Like Bees ┃ Horseshoe Taven, Toronto</p>
+					</div>
+				</div>
+				
+				<div class = "row">
+					<div class = "col px-1 card border-0">
+						<img class = "card-img-top d-inline w-100" src = "images/three.png">
+						<p class = "card-title p-2">The Collarbones ┃ Drake Underground, Toronto</p>
+					</div>
+					<div class = "col px-1 card border-0">
+						<img class = "card-img-top d-inline w-100" src = "images/four.png">
+						<p class = "card-title p-2">GFlip ┃ HISTORY, Toronto</p>
+					</div>
+				</div>
+				
+				<div class = "row">
+					<div class = "col px-1 card border-0">
+						<img class = "card-img-top d-inline w-100" src = "images/five.png">
+						<p class = "card-title p-2">Mercer Henderson ┃ HISTORY, Toronto</p>
+					</div>
+					<div class = "col px-1 card border-0">
+						<img class = "card-img-top d-inline w-100" src = "images/six.png">
+						<p class = "card-title p-2">Stacey Ryan ┃ Drake Underground, Toronto</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Footer with Breakpoints using Grid Layout-->
+	<footer class = "card container-fluid bg-light rounded-0 p-lg-5 p-sm-0 pb-0">
+		<div class = "card-body row text-center align-items-center">
+			<!-- Breakpoints, large screen or bigger take 3 columns of 12, small screen take whole width-->
+			<div class = "col-sm-12 col-lg-3 p-sm-3">
+				<div>
+					<h1 class = "card-title"><a class="nav-link" href="project2.html">Tiffany Tea Studios</a></h1>
+					<p class = "card-text">Capturing life, cinematically.</p>
+				</div>
+			</div>
+			<div class = "col-sm-12 col-lg-3 p-sm-2">
+				<h4 class = "p-lg-2"><a class="nav-link" href="gallery.html">Gallery</a></h4>
+				<p class = "p-lg-1"><a class="nav-link" href="gallery.html#carouselExampleIndicators">Featured Works</a></p>
+				<p class = "p-lg-1"><a class="nav-link" href="gallery.html#concertList">Concert and Live Event Photography</a></p>
+			</div>
+			<div class = "col-sm-12 col-lg-3 p-sm-2">
+				<h4 class = "p-lg-2"><a class="nav-link" href="blog.html">Blog</a></h4>
+				<p class = "p-lg-1"><a class="nav-link" href="blog.html">G Flip & Mercer Henderson</a></p>
+				<p class = "p-lg-1"><a class="nav-link" href="blog.html">Stacey Ryan, Haven Madison & The Collarbones</a></p>
+				<p class = "p-lg-1"><a class="nav-link" href="blog.html">Me Like Bees, Parrotfish & Small-Town Strip Club</a></p>
+			</div>
+			<div class = "col-sm-12 col-lg-3 p-sm-2">
+				<h4 class = "p-lg-2">More</h4>
+				<p class = "p-lg-1"><a class="nav-link" href="resume.html">Resume</a></p>
+				<p class = "p-lg-1"><a class="nav-link" href="contact.html">Contact</a></p>
+			</div>
+		</div>
+		<div class = "card-footer bg-light row text-center"><p>© Tiffany Tea 2025. All rights Reserved.</p></div>
+	</footer>
+	
+	<!-- Bootstrap script -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+		<script> 
+			const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+			const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl)) 
+		</script>
+</body>
+</html>
