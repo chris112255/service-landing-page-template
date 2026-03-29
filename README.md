@@ -17,3 +17,7 @@ The objective was to create a responsive, functional, platform for a mock client
 **Fluid Images & Media**: Utilized Bootstrap to ensure responsive an fluid images.
 
 **Optimized Forms**: A stylized contact section designed for maximum user engagement and clear visual feedback.
+
+**Intellectual Property**
+
+**All images are proprietrary and copyrighted. Unauthourized use is strictly prohibited**.
